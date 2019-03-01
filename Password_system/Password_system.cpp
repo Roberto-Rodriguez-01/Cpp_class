@@ -38,14 +38,14 @@ int main() {
 				return 0;
 			}
 			default: {
-				cout << "not a choice";
-				break;
+				cout << "not a choice \n";
+				continue;
 			}
 			}
 		}
 		else if (i == 0) {
 			i++;
-			cout << "Hello new user i see you dont have a password or name, lets create one :] \n";
+			cout << "Hello new user, I see you dont have a password or a name, lets create one :] \n";
 			cout << "Enter your name :";
 			getline(cin, name);
 			constraints();
