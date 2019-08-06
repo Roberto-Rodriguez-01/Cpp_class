@@ -1,2 +1,2 @@
 # Cpp_class
-Labs for programming class
+Labs for basic C++ programming class
